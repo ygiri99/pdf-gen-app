@@ -5,7 +5,7 @@ import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfil
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/react-gen-pdf',
+  base: '/pdf-gen-app',
   optimizeDeps: {
     esbuildOptions: {
         // Node.js global to browser globalThis
