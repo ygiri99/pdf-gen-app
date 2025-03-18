@@ -40,7 +40,7 @@ function App() {
   const pdfDownload = (images) => {
     let currentProgress = 0;
     const interval = setInterval(() => {
-      currentProgress += 5;
+      currentProgress += 2;
       if(currentProgress > 100){
         clearInterval(interval);
         generatePdf(images);
